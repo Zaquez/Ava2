@@ -1,0 +1,206 @@
+html {
+    font-size: 16px;
+    background: url(../img/barcos.webp);
+    background-repeat: no-repeat;
+    background-color: #f8f6f7;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 18.8px;
+}
+
+.trivago {
+    color: #f35926;
+    font-size: 45px;
+}
+
+.trivago2 {
+    color: #fcb929;
+    font-size: 45px;
+}
+
+.trivago3 {
+    color: #00b049;
+    font-size: 45px;
+}
+
+.menu {
+    word-spacing: 47.8px;
+    font-size: 18.8px;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.largura {
+    width: 1200px;
+    min-width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.toposite {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.passagensaereas {
+    height: 150px;
+    background-color: white;
+    text-align: justify;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 17px;
+}
+
+.caixa {
+    display: flex;
+    gap: 11.5px;
+    justify-content: space-between;
+}
+
+form {
+    height: 415px;
+    margin-top: 97.8777px;
+}
+
+h2 {
+    margin-top: 17px;
+    margin-bottom: 18px;
+    font-weight: bold;
+    font-size: 22.899px;
+}
+
+input {
+    height: 40px;
+    font-size: 19px;
+    border-radius: 1px;
+    border: 1px solid gray;
+    padding-left: 8px;
+    width: 220px;
+}
+
+.botaopassagens {
+    background-color: red;
+    height: 40px;
+    border: 0;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 20.1px;
+    padding: 0 1px;
+    box-shadow: 0 0 0;
+}
+
+.bloco {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.rio,
+.bonito,
+.saopaulo,
+.fozdoiguaçu,
+.maceio,
+.salvador,
+.fortaleza,
+.belohorizonte {
+    height: 220px;
+    width: 240px;
+    background-color: red;
+    border-radius: 13.7px;
+    text-align: center;
+}
+
+p {
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 5.3px black;
+
+}
+
+.preço {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+button {
+    font-size: 13px;
+    background-color: white;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    box-shadow: 0 0 4.799px black;
+}
+
+.rio {
+    background: url(../img/rio.webp);
+    background-size: 192%;
+    background-position: center;
+}
+
+.bonito {
+    background: url(../img/bonito.webp);
+    background-size: 192%;
+    background-position: center;
+}
+
+.saopaulo {
+    background: url(../img/sao-paulo.webp);
+    background-size: 192%;
+    background-position: center;
+}
+
+.fozdoiguaçu {
+    background: url(../img/foz.webp);
+    background-size: 192%;
+    background-position: center;
+}
+
+.maceio {
+    background: url(../img/maceio.webp);
+    background-size: 192%;
+    background-position: center;
+}
+
+.salvador {
+    background: url(../img/salvador.webp);
+    background-size: 192%;
+    background-position: center;
+}
+
+.fortaleza {
+    background: url(../img/fortaleza.webp);
+    background-size: 192%;
+    background-position: center;
+}
+
+.belohorizonte {
+    background: url(../img/belo-horizonte.webp);
+    background-size: 192%;
+    background-position: center;
+}
+
+.footer {
+    height: 80px;
+    background-color: white;
+    margin-top: 13px;
+}
